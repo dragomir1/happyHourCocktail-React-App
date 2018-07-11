@@ -26,19 +26,26 @@
        "react"
    ],
    "rules": {
-      "prop-types": [2],
+      "react/prop-types": [0],
        "indent": [
            "error",
-           "tab"
+           2
        ],
        "linebreak-style": [
            "error",
            "unix"
        ],
+       "comma-dangle": 0,
+       "no-console": 0,
        "quotes": [
-           "error",
-           "double"
-       ],
+            0,
+            "double",
+            "avoid-escape"
+        ],
+       # "quotes": [
+       #     "error",
+       #     "double",
+       # ],
        "semi": [
            "error",
            "always"
