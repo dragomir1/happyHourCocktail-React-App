@@ -1,0 +1,45 @@
+.collinsGlass {
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+  background: #c2c2c0;
+  /* padding: 0;
+  margin: auto; */
+  width: 130px;
+  height: 262px;
+  border: solid 2px #686864;
+  border-bottom-width: 25px;
+}
+
+.collinsGlass::after {
+  content: " ";
+  position: absolute;
+  background: white;
+  display: block;
+  opacity: 0.5;
+  left: 23px;
+  width: 10px;
+  height: 262px;
+  }
+
+  /* #rocksGlass {
+    border-radius: 3px;
+    position: relative;
+    display: inline-block;
+    background: #c2c2c0;
+    width: 142px;
+    height: 140px;
+    border: solid 2px #686864;
+    border-bottom-width: 25px;
+  }
+
+  #rocksGlass::after {
+    content: " ";
+    position: absolute;
+    background: white;
+    display: block;
+    opacity: 0.5;
+    left: 23px;
+    width: 14px;
+    height: 140px;
+  } */
